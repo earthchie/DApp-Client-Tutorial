@@ -1,0 +1,15 @@
+{
+  "name": "defi_automation_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ethers": "^5.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Earthchie",
+  "license": "MIT"
+}
