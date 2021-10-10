@@ -6,6 +6,19 @@ cd ./De-Fi-Automation-Tutorial
 npm i
 ```
 
+# Resources
+
+BSC RPC list
+https://docs.binance.org/smart-chain/developer/rpc.html
+
+Faucet (Free BNB for Testnet)
+https://testnet.binance.org/faucet-smart
+
+DEX Testnet (PancakeSwap & BekerySwap)
+https://bsc.kiemtienonline360.com/
+
+# Chapters
+
 ## 1. Hello World
 
 บทเรียนนี้ผู้เรียนจะได้ศึกษาวิธีเชื่อมต่อกับบล็อกเชนผ่าน RPC อ่านข้อมูล Block Number และสร้างกระเป๋าไว้ใช้งานในภายหลัง
