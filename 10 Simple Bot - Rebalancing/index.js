@@ -74,13 +74,13 @@ async function bot(wallet, rebalance){
         if(Math.abs(rebalance[token].ratioDiff) > 0.01){ // if position change is larger than 1%, do buy or sell.
 
             if(rebalance[token].ratioDiff > 0){ // holds more than it should, sell
-                const sellAmount = ethers.utils.parseUnits(parseInt(rebalance[token].ratioDiff * totalValue / rebalance[token].price).toString());
-                console.log('sell', token, 'amount', sellAmount);
+                const sellAmount = ethers.utils.parseUnits((rebalance[token].ratioDiff * totalValue / rebalance[token].price).toString());
+                console.log('sell', ethers.utils.formatUnits(sellAmount), token);
                 await swap(wallet, rebalance[token].contract, sellAmount, BUSD);
             }else{  // holds less than it should, buy
                 console.log(rebalance[token].ratioDiff * totalValue);
-                const BUSDAmount = ethers.utils.parseUnits(parseInt(Math.abs(rebalance[token].ratioDiff * totalValue)).toString());
-                console.log('buy', token, 'amount', BUSDAmount);
+                const BUSDAmount = ethers.utils.parseUnits(Math.abs(rebalance[token].ratioDiff * totalValue).toString());
+                console.log('buy', token, 'for', ethers.utils.formatUnits(BUSDAmount), 'BUSD');
                 await swap(wallet, BUSD, BUSDAmount, rebalance[token].contract);
             }
 
