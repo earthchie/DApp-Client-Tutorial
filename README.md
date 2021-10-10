@@ -11,6 +11,9 @@ npm i
 BSC RPC list
 https://docs.binance.org/smart-chain/developer/rpc.html
 
+BSCScan Testnet
+https://testnet.bscscan.com/
+
 Faucet (Free BNB for Testnet)
 https://testnet.binance.org/faucet-smart
 
