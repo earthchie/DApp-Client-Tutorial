@@ -1,8 +1,12 @@
-# DeFi Automation Tutorial
+# DApp Client Tutorial
+
+มาเรียนรู้วิธีการเขียนโปรแกรมเชื่อมต่อกับบล็อกเชน และ Smart Contract กันเถอะ
+
+Let's learn how to develop a software connecting to Blockchains and Smart Contracts.
 
 ```
-git clone https://github.com/earthchie/De-Fi-Automation-Tutorial
-cd ./De-Fi-Automation-Tutorial
+git clone https://github.com/earthchie/DApp-Client-Tutorial/
+cd ./DApp-Client-Tutorial
 npm i
 ```
 
