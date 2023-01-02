@@ -2,8 +2,8 @@ const {ethers} = require('ethers');
 
 async function app(){
 
-    // BSC RPC list: https://docs.binance.org/smart-chain/developer/rpc.html
-    const provider = new ethers.providers.JsonRpcProvider('https://bsc-dataseed.binance.org/');
+    // RPC list: https://chainlist.org/
+    const provider = new ethers.providers.JsonRpcProvider('https://rpc-l1.jibchain.net');
 
     const blockNumber = await provider.getBlockNumber();
     console.log('Hello World!');
