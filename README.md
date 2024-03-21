@@ -43,7 +43,7 @@ In this chapter, you'll learn how to check the balance of JBC which is a native 
 
 ## 3. Check token balance
 
-ในบทเรียนนี้ ผู้เรียนจะได้ศึกษาวิธีการเช็คยอดคงเหลือของโทเค ตามาตรฐาน ERC-20
+ในบทเรียนนี้ ผู้เรียนจะได้ศึกษาวิธีการเช็คยอดคงเหลือของโทเคน ตามมาตรฐาน ERC-20
 
 In this chapter, you'll learn how to check the balance of the ERC-20 token.
 
