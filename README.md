@@ -2,7 +2,7 @@
 
 มาเรียนรู้วิธีการเขียนโปรแกรมเชื่อมต่อกับบล็อกเชน และ Smart Contract กันเถอะ
 
-Let's learn how to develop a software connecting to Blockchains and Smart Contracts.
+Let's learn how to develop software connecting to Blockchains and Smart Contracts.
 
 ```
 git clone https://github.com/earthchie/DApp-Client-Tutorial/
@@ -11,6 +11,9 @@ npm i
 ```
 
 # Resources
+
+JBC RPC
+https://rpc-l1.jibchain.net
 
 BSC RPC list
 https://docs.binance.org/smart-chain/developer/rpc.html
@@ -30,43 +33,43 @@ https://bsc.kiemtienonline360.com/
 
 บทเรียนนี้ผู้เรียนจะได้ศึกษาวิธีเชื่อมต่อกับบล็อกเชนผ่าน RPC อ่านข้อมูล Block Number และสร้างกระเป๋าไว้ใช้งานในภายหลัง
 
-In this chapter, you'll learn how to connect to blockchain RPC, get a block number, and create a wallet for future project.
+In this chapter, you'll learn how to connect to blockchain RPC, get a block number, and create a wallet for future projects.
 
 ## 2. Check BNB Balance
 
-ในบทเรียนนี้ ผู้เรียนจะได้ศึกษาวิธีการเช็คยอดคงเหลือของเงินสกุล BNB ซึ่งเป็นเงินสกุลหลักบน Binance Smart Chain
+ในบทเรียนนี้ ผู้เรียนจะได้ศึกษาวิธีการเช็คยอดคงเหลือของเงินสกุล JBC ซึ่งเป็นเงินสกุลหลักบน Binance Smart Chain
 
-In this chapter, you'll learn how to check a balance of BNB which is a native currency for Binance Smart Chain.
+In this chapter, you'll learn how to check the balance of JBC which is a native currency for Binance Smart Chain.
 
 ## 3. Check token balance
 
 ในบทเรียนนี้ ผู้เรียนจะได้ศึกษาวิธีการเช็คยอดคงเหลือของโทเค ตามาตรฐาน ERC-20
 
-In this chapter, you'll learn how to check a balance of ERC-20 token.
+In this chapter, you'll learn how to check the balance of the ERC-20 token.
 
-## 4. Transfer BNB
+## 4. Transfer JBC
 
-ในบทเรียนนี้ ผู้เรียนจะได้ศึกษาวิธีการเขียนโปรแกรมเชื่อมต่อเข้า TESTNET และเรียนรู้คำสั่งโอน BNB ไปยังกระเป๋าปลายทางที่กำหนด
+ในบทเรียนนี้ ผู้เรียนจะได้เรียนรู้คำสั่งโอน JBC ไปยังกระเป๋าปลายทางที่กำหนด
 
-In this chapter, you'll learn how to connect to TESTNET and learn how to transfer BNB to a specific recipient address.
+In this chapter, you'll learn how to transfer JBC to a specific recipient address.
 
 ## 5. Transfer Token
 
 ในบทเรียนนี้ ผู้เรียนจะได้ศึกษาวิธีการโอนเหรียญ ERC-20 ไปยังกระเป๋าปลายทางที่กำหนด
 
-In this chapter, you'll learn how to transfer ERC-20 token to a specific recipient address.
+In this chapter, you'll learn how to transfer an ERC-20 token to a specific recipient address.
 
 ## 6. Get Exchange Rate
 
 ในบทเรียนนี้ ผู้เรียนจะได้ศึกษาวิธีการหาอัตราแลกเปลี่ยน จากกระดาน DEX เช่น PancakeSwap
 
-In this chapter, you'll learn how to get a exchange rate of tokens from DEX (e.g. PancakeSwap).
+In this chapter, you'll learn how to get an exchange rate of tokens from DEX (e.g. PancakeSwap).
 
 ## 7. Monitoring Exchange Rate
 
 ในบทเรียนนี้ ผู้เรียนจะได้ศึกษาวิธีการเฝ้าติดตามราคาของเหรียญที่สนใจ
 
-In this chapter, you'll learn how to monitor the exchange rate of token, constantly.
+In this chapter, you'll learn how to monitor the exchange rate of tokens, constantly.
 
 ## 8. Swapping Tokens (Buy & Sell)
 
@@ -78,7 +81,7 @@ In this chapter, you'll learn how to swap tokens using DEX.
 
 ในบทเรียนนี้ ผู้เรียนจะได้มีโอกาสเขียนบอทอย่างง่าย เพื่อให้สร้างคำสั่งซื้อ/ขาย เหรียญ เมื่ออัตราแลกเปลี่ยนถึงราคาที่ต้องการ
 
-In this chapter, you'll learn how to place a buy/sell limit order when the exchange rate is reach a specific price.
+In this chapter, you'll learn how to place a buy/sell limit order when the exchange rate reaches a specific price.
 
 ## 10. Simple Bot - Rebalancing
 
