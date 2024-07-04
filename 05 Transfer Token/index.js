@@ -29,7 +29,7 @@ async function app(){
 
     // check balance
     balance = await Token.balanceOf(wallet.address);
-    console.log('My Final BUSD Balance is:', ethers.utils.formatUnits(balance));
+    console.log('My Final Token Balance is:', ethers.utils.formatUnits(balance));
 }
 
 app();
