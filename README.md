@@ -39,7 +39,7 @@ In this chapter, you'll learn how to connect to blockchain RPC, get a block numb
 
 ในบทเรียนนี้ ผู้เรียนจะได้ศึกษาวิธีการเช็คยอดคงเหลือของเงินสกุล JBC ซึ่งเป็นเงินสกุลหลักบน Binance Smart Chain
 
-In this chapter, you'll learn how to check the balance of JBC which is a native currency for Binance Smart Chain.
+In this chapter, you'll learn how to check the balance of JBC, a native currency for JIB Chain.
 
 ## 3. Check token balance
 
